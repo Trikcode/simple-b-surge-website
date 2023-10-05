@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/4e28144f1f.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./surge.css">
+	<title>Billionaire Surge</title>
+
+</head>
+
+
+<body>
+
+	<nav class="navbar">
+		<div class="logo">Billionaire Surge</div>
+
+		<ul class="nav-links">
+
+			<input type="checkbox" id="checkbox_toggle" />
+			<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+			<label for="checkbox_toggle" class="close-icon">&#10006;</label>
+
+
+			<div class="menu">
+
+				<li><a href="/">Home</a></li>
+				<li><a href="/">About</a></li>
+
+				<li class="services">
+					<a href="/">Services</a>
+				</li>
+			</div>
+		</ul>
+	</nav>
+
+	<!-- header -->
+	<main>
+		<div class="header_container">
+			<img src="./office.jpg" alt="Office" class="header_Image">
+			<div class="centered_text">Designing Beyond Screens, Creating User Delight.</div>
+		</div>
+
+		<div class="row_container" id="about">
+			<div class="column column1">
+				<video class="video_styles" autoplay loop muted>
+					<source src="./animation.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			<div class="column column2">
+				<h1>What is Billionaire Surge?</h1>
+				<p>Billionaire Surge is a community of like-minded individuals who are passionate about learning and
+					growing
+					together. We are a community of entrepreneurs, investors, and business owners who are looking to
+					grow
+					and learn from each other. We are a community of entrepreneurs, investors, and business owners who
+					are
+					looking to grow and learn from each other. We are a community of entrepreneurs, investors, and
+					business
+					owners who are looking to grow and learn from each other.</p>
+			</div>
+		</div>
+	</main>
+
+	<!-- main -->
+
+	<footer id="contact">
+		<div class="footer-content">
+			<h3>Billionaire Surge</h3>
+			<p>Join our community of like-minded individuals who are passionate about learning and growing together.
+			</p>
+			<ul class="socials">
+				<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-x"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			&copy; <span class="currentYear"></span> Billionaire Surge | Designed by <a class="nobert"
+				href="https://www.linkedin.com/in/nobert-patrick/" target="_blank">Nobert Patrick</a>
+		</div>
+	</footer>
+
+	<script>
+		var currentYear = new Date().getFullYear();
+		document.querySelector('.currentYear').innerHTML = currentYear;
+
+	</script>
+</body>
+
+</html>
